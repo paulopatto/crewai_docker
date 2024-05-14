@@ -1,15 +1,23 @@
-research_task:
+cordinate_attack_task:
   description: >
-    Conduct a thorough research about {topic}
-    Make sure you find any interesting and relevant information given
-    the current year is 2024.
+    Léia deve coordenar a missão,
+    mantendo a comunicação e fornecendo suporte estratégico.
+    Léia deve ordenar primeiro que Han defenda o Luke,
+    possibilitando um caminho seguro para ele.
   expected_output: >
-    A list with 10 bullet points of the most relevant information about {topic}
+    Ataque coordenado com sucesso,
+    estrela da morte destruída.
+    Todas as unidade informada e alinhadas.
 
-reporting_task:
+protect_luke_task:
   description: >
-    Review the context you got and expand each topic into a full section for a report.
-    Make sure the report is detailed and contains any and all relevant information.
+    Han deve atacar naves inimigas e proteger Luke de ser atacado durante a missão.
   expected_output: >
-    A fully fledge reports with the mains topics, each with a full section of information.
-    Formated as markdown with out '```'
+    Luke protegido, caminho livre para o ataque final.
+
+destroy_dead_star_task:
+  description: >
+    Luke deve pilotar sua X-wing e atirar no pronto fraco da Estrela da Morte para destruíla.
+  expected_output: >
+    Estrela da Morte destruída, missão bem-sucedida.
+
