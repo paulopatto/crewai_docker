@@ -13,7 +13,7 @@ os.environ["OPENAI_API_KEY"]=app.settings.OPENAI_API_KEY
 
 
 @CrewBase
-class MulticrewCrew():
+class MyCrew():
 	"""Multicrew crew"""
 	agents_config = 'config/agents.yaml'
 	tasks_config = 'config/tasks.yaml'

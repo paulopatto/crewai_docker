@@ -1,0 +1,6 @@
+crewai==0.30.8 
+crewai[tools]
+google-generativeai 
+gradio==4.26.0
+langchain-google-genai 
+#langchain-groq

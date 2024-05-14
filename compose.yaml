@@ -1,6 +1,6 @@
 services:
   crewai_docker:
-    image: techmumus/crewai:0.1.0
+    build: .
     ports:
       - 7860:7860
     volumes:
